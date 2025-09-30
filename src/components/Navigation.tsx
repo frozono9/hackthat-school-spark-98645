@@ -26,14 +26,6 @@ const Navigation = () => {
             </div>
           </div>
 
-          <div className="flex items-center space-x-4">
-            <Button variant="outline" size="sm" className="border-foreground text-foreground hover:bg-foreground hover:text-background">
-              Sign In
-            </Button>
-            <Button size="sm" className="bg-foreground text-background hover:bg-foreground/90">
-              Register
-            </Button>
-          </div>
         </div>
       </div>
     </nav>
