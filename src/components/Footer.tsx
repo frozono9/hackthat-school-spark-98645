@@ -29,9 +29,9 @@ const Footer = () => {
           <div>
             <h4 className="text-sm font-semibold text-background mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-background/70">
-              <li><a href="mailto:info@hackthat.es" className="hover:text-background transition-colors">info@hackthat.es</a></li>
-              <li><a href="tel:+34900000000" className="hover:text-background transition-colors">+34 900 000 000</a></li>
-              <li>Madrid, Spain</li>
+              <li><a href="mailto:hackthatai@gmail.com" className="hover:text-background transition-colors">hackthatai@gmail.com</a></li>
+              <li><a href="tel:+34639541312" className="hover:text-background transition-colors">+34 639 54 13 12</a></li>
+              <li>Barcelona, Spain</li>
             </ul>
           </div>
         </div>
