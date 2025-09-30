@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript">
+      // SPA redirect for GitHub Pages (keeps first path segment: repo name)
+      (function() {
+        var segmentCount = 1;
+        var l = window.location;
+        var newUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+          l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?/' +
+          l.pathname.slice(1).split('/').slice(segmentCount).join('/') +
+          (l.search ? '&' + l.search.slice(1) : '') + l.hash;
+        l.replace(newUrl);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
